@@ -25,6 +25,7 @@ int main() {
         kaslr_slide = std::stoul(slide, nullptr, 16);
         print("用户给定slide=",kaslr_slide," 跳过KASLR偏移泄露");
     } else leak_slide();
+    return 0;
     init_addrs(); //设置函数地址
     //注册信号handler
     struct sigaction sa{};

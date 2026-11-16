@@ -6,18 +6,17 @@
 ## ⚠️ Warning
 
 - This project is for **security research and authorized testing only**.
-- Running it may **brick your device**, cause data loss, or leave the system unstable.
-- Temporary root is not persistence; do not use it on a daily-driver device.
+- Running it may **brick your device**, cause data loss, or leave the system unstable; do not use it on a daily-driver device.
 - Do not download or run “adapted” exploit code from unknown sources. Review code with AI/manual audit before running.
 - You are responsible for complying with local laws and regulations.
 
 ## Overview
 
-GhostLock (CVE-2026-43499, as referenced in the docs) is a long-standing kernel vulnerability class. This repository contains a research exploit chain tested on:
+GhostLock (CVE-2026-43499) is a long-standing kernel vulnerability. This repository contains a research exploit chain tested on:
 
-| Device | System | Kernel | Status |
-| --- | --- | --- | --- |
-| Huawei MatePad 11 2021 (DBY) | HarmonyOS 4.2.0.213 | 4.19.157 | Tested in the write-up |
+| Device | System | Kernel |
+| --- | --- | --- |
+| Huawei MatePad 11 2021 (DBY-W09) | HarmonyOS 4.2.0.213 | 4.19.157 |
 
 Other devices/versions require porting and offset calibration. No compatibility is guaranteed.
 

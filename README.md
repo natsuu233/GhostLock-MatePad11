@@ -30,9 +30,7 @@ See the docs for environment setup, kernel build, initramfs, QEMU lab, and devic
 This README intentionally does not provide a one-command “universal root” path.
 
 ## Credits
-Author: natsuu233
-
-Thanks to DeepSeek / GLM and the referenced official write-ups.
+Thanks to DeepSeek / GLM / ChatGPT / Grok and the referenced official write-ups.
 
 See docs/ for the full reference list.
 
